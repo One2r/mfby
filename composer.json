@@ -1,4 +1,8 @@
 {
+    "name": "one2r/mfby",
+    "description": "My framwork based yaf for api",
+    "keywords": ["framework", "mfby","yaf","api"],
+    "license": "MIT",  		
     "require": {
         "firebase/php-jwt": "^5.0"
     }
