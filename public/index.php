@@ -1,6 +1,6 @@
 <?php
 
-define('APPLICATION_PATH', dirname(__FILE__)."/../");
+define('APPLICATION_PATH', realpath(dirname(__FILE__) . '/../'));
 
 require APPLICATION_PATH . '/vendor/autoload.php';
 
