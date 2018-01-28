@@ -1,9 +1,9 @@
 <?php
-namespace Core;
+namespace Core\Traits;
 
 use \Firebase\JWT\JWT;
 
-class JwtAuth {
+trait JwtAuth {
 
     protected function claim(){
         $claim = [
